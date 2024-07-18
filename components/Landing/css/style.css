@@ -1,0 +1,826 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+
+} */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xx{
+  padding-right: 0%;
+}
+.nav-bar {
+  background-color: #243544;
+  height: 65px;
+
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+  border: 0px;
+  border-radius: 200px;
+}
+
+.nav-home {
+  margin-left: 250px;
+  margin-right: 10px;
+}
+
+/* CROUSEL */
+.crouselimg {
+  height: 600px;
+  width: 1500px;
+}
+
+.crouselimage {
+
+  min-height: 100px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.crouselimage::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
+}
+
+.crouselcaption {
+  margin-bottom: 10%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.crouselcaption h5 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.crouselcaption p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+/* OUR SERVICES */
+.our-service {
+  padding-top: 10%;
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.service-section {
+  margin-left: 50px;
+}
+
+.service {
+  background-color: #ffffff;
+}
+
+.serviceimg {
+  width: 50px;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.servicecard {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .our-service {
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .servicecard {
+    width: 355px;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  .our-service {
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .servicecard {
+    width: 355px;
+  }
+}
+
+.servicecard:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1)
+}
+
+@media only screen and (max-width: 540px) {
+  .servicecard {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .servicecard {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .servicecard {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .servicecard {
+    width: 250px;
+  }
+}
+
+/* FORM */
+
+.select-form {
+  background-color: rgb(36 53 68);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 40px;
+  color: #ffffff;
+}
+
+.best-service {
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.form-btn {
+  background-color: #ffffff;
+}
+
+.form-btn:hover {
+  background-color: rgb(36 53 68);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .best-service-form {
+    display: none;
+  }
+}
+
+/* HOW IT WORKS */
+.work {
+  margin-top: 10%;
+}
+
+.works-how {
+  margin-bottom: 2%;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.how-it-works {
+  margin-top: 20%;
+  background-color: #243544;
+  padding-bottom: 120px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .how-it-works {
+    width: 335px;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  .worktext {
+    width: 250px;
+    /* margin: 20px; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .how-it-works {
+    width: 355px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .how-it-works {
+    width: 500px;
+  }
+
+  .worktext {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .how-it-works {
+    width: 360px;
+  }
+
+  .worktext {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .how-it-works {
+    width: 336px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .how-it-works {
+    width: 260px;
+  }
+
+  .worktext {
+    width: 180px;
+  }
+}
+
+.workimg {
+  border: 0px;
+  border-radius: 200px;
+}
+
+.worktext {
+  background-color: white;
+  height: 100px;
+  /* width: 250px ; */
+  border: 0px;
+  border-radius: 10px;
+}
+
+/* FAQS */
+.faqs-questions {
+  margin-top: 20%;
+}
+
+.faqs {
+  margin-bottom: 2%;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .faqs-questions {
+    width: 355px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .faqs-questions {
+    width: 520px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .faqs-questions {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .faqs-questions {
+    width: 336px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .faqs-questions {
+    width: 260px;
+  }
+}
+
+/* CONTACT US */
+.contact {
+  margin-bottom: 2%;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.contactus {
+  background-color: #243544;
+}
+
+.contact-us {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.contact-us:hover {
+  background-color: rgb(204, 245, 245);
+
+}
+
+@media only screen and (max-width: 540px) {
+  .contact-us {
+    width: 467px !important;
+  }
+
+  .contactus {
+    width: 524px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .contact-us {
+    width: 320px !important;
+  }
+
+  .contactus {
+    width: 380px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact-us {
+    width: 220px !important;
+  }
+
+  .contactus {
+    width: 260px;
+    margin: 10px;
+  }
+
+  .contact {
+    font-size: 45px;
+  }
+}
+
+/* OUR BRAND WE SERVE */
+.car {
+  width: 200px;
+  height: 200px;
+}
+
+.brand {
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.brand:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.fontawesome {
+  color: white;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-head-text {
+    text-align: center;
+  }
+}
+
+/* Services */
+.foodimage {
+  width: 100%;
+  height: 100vh;
+  background: url("../../../assets/images/about2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.menutext {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.contact-text {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.contact-form {
+  background-color: rgb(36 53 68);
+  color: #ffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-btn {
+  background-color: #ffffff;
+}
+
+.contact-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.contact-image {
+  width: 100%;
+  height: 100vh;
+  background: url("../../../assets/images/about2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.book-image {
+  width: 100%;
+  height: 100vh;
+  background: url("../../../assets/images/about4.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* DETAILS */
+.details {
+  margin-top: 200px;
+  margin-right: 80px;
+}
+
+.navbar-nav li {
+  margin: 50px;
+
+}
+
+.footer-links li {
+  margin: 5px;
+}
+
+.about-data {
+  margin: 50px;
+}
+.form-select{
+  width: 95%;
+}
+.form-control{
+  width: 95%;
+
+}
+@media only screen and (max-width: 1280px) {
+  .details {
+    margin-top: 200px;
+  }
+
+  .menutext {
+    padding-left: 10px;
+  }
+
+  .foodimage {
+    height: 80vh;
+  }
+
+  .contact-image {
+    height: 80vh;
+  }
+
+  .book-image {
+    height: 60vh;
+  }
+  .form-select{
+    width: 95%;
+  }
+  .form-control{
+    width: 95%;
+
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar-nav li {
+    margin: 24px;
+  }
+
+  .foodimage {
+    height: 90vh;
+  }
+
+  .general-img {
+    width: 95%;
+    margin-top: 10%;
+  }
+
+  .menutext {
+    padding-left: 0px;
+  }
+
+  .details {
+    margin-top: 120px;
+  }
+
+  .footer-links li {
+    margin: 5px;
+  }
+
+  .contact-image {
+    height: 65vh;
+  }
+
+  .contact-text {
+    padding-top: 120px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .book-image {
+    height: 60vh;
+  }
+
+  .our-team {
+    width: 180px;
+    margin-left: 20px;
+  }
+  .form-select{
+    width: 95%;
+  }
+  .form-control{
+    width: 95%;
+
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .navbar-toggler {
+    background-color: #ffffff !important;
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    padding: 10px;
+  }
+
+  .navbar-collapse li a {
+    color: #000 !important;
+  }
+
+  .general-img {
+    margin-top: 40%;
+  }
+
+  .foodimage {
+    height: 45vh;
+  }
+
+  .footer-links li {
+    margin: 5px;
+  }
+
+  .about-image {
+    width: 90%;
+  }
+
+  .book-image {
+    height: 50vh !important;
+  }
+
+  .our-team {
+    width: 263px;
+    margin-left: 33px;
+  }
+  .navbar-collapse .navbar-btn{
+    background-color: #000;
+    color: #ffffff;
+  }
+  .navbar-collapse .navbar-btn:hover{
+    background-color: #000;
+    color: #ffffff;
+  }
+ 
+}
+
+@media only screen and (max-width: 900px) {
+  .general-img {
+    width: 110%;
+  }
+
+  .details {
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .menutext {
+    padding-left: 0px;
+  }
+
+  .general-services {
+    margin-top: 120px !important;
+  }
+
+  .general-img {
+    margin-top: 30%;
+  }
+
+  .foodimage {
+    height: 60vh;
+  }
+
+  .navbar-toggler {
+    background-color: #ffffff !important;
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    padding: 10px;
+  }
+
+  .navbar-collapse li a {
+    color: #000 !important;
+  }
+.navbar-collapse .navbar-btn{
+  background-color: #000;
+  color: #ffffff;
+}
+.navbar-collapse .navbar-btn:hover{
+  background-color: #000;
+  color: #ffffff;
+}
+  .footer-links li {
+    margin: 5px;
+  }
+
+  .contact-image {
+    height: 50vh;
+  }
+
+  .about-image {
+    width: 100%;
+
+  }
+
+  .about-data {
+    margin: 5px;
+  }
+
+  .book-image {
+    height: 70vh;
+  }
+  .form-select{
+    width: 95%;
+  }
+  .form-control{
+    width: 95%;
+
+  }
+  /* .our-team {
+    margin-left: 35px !important;
+  } */
+
+}
+
+@media only screen and (max-width: 600px) {
+  .details {
+    display: none;
+  }
+
+  .general-img {
+    width: 90% !important;
+  }
+
+  .general-services {
+    margin-top: 20px !important;
+  }
+
+  .navbar-toggler {
+    background-color: #ffffff !important;
+  }
+
+  .footer-links li {
+    margin: 5px;
+  }
+
+  .contact-image {
+    height: 70vh;
+  }
+
+  .contact-form {
+    padding: 10px;
+  }
+
+  .contact-text {
+    padding-left: 30px;
+  }
+
+  .about-data {
+    margin: 10px;
+  }
+
+  .book-image {
+    height: 70vh;
+  }
+
+  .book-form {
+    margin: 7px;
+  }
+  .form-select{
+    width: 95%;
+  }
+  .form-control{
+    width: 95%;
+
+  }
+  .team{
+    position: relative;
+    left: 40px;
+  }
+
+  /* .our-card {
+    margin-left: 15px;
+  } */
+}
+ @media only screen and (max-width: 540px) {
+ 
+  .our-team {
+    width: 300px;
+  }
+  .team{
+    width: 270px;
+  }
+ 
+}
+
+
+@media only screen and (max-width: 280px) {
+  .book-image {
+    height: 70vh !important;
+  }
+  .our-team {
+    width: 200px;
+  }
+  .team{
+    width: 174px;
+  }
+}
+
+/* General services */
+.general-serviceimg {
+  background-color: black;
+  border: 2px solid blue;
+  border-radius: 200px;
+  margin-left: 40px;
+
+}
+
+.general-serviceimg:hover {
+  background-color: white;
+}
+
+.general-services {
+  margin-top: 120px;
+}
+
+/* OUR TEAM */
+.team {
+  margin-top: -30px;
+}
+
+/* book now */
+.book-form {
+  background-color: rgb(36 53 68);
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.book-btn {
+  background-color: #ffffff;
+}
+
+.book-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.row>* {
+  padding-right: 0;
+}
+.navbar-btn{
+  background-color: #ffffff;
+}
+.navbar-btn:hover{
+  background-color: #ffffff;
+  color: #000;
+}
