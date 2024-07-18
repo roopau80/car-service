@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/car-service/static/css/main.38550548.css",
+    "main.js": "/car-service/static/js/main.8ff833f8.js",
+    "static/js/787.0ca4bb88.chunk.js": "/car-service/static/js/787.0ca4bb88.chunk.js",
+    "static/media/car3.jfif": "/car-service/static/media/car3.dcd188aa77ac6c916746.jfif",
+    "static/media/car1.jpg": "/car-service/static/media/car1.6f6d4ab84c174c71cbae.jpg",
+    "static/media/car2.jpg": "/car-service/static/media/car2.d8dd1980412a7bc8c9f5.jpg",
+    "static/media/about4.webp": "/car-service/static/media/about4.10396f7539113eaf43bd.webp",
+    "static/media/about2.jpg": "/car-service/static/media/about2.1588b6df05b1bc0fa68b.jpg",
+    "static/media/tyress.jpg": "/car-service/static/media/tyress.9982e7bd0bb5062774da.jpg",
+    "static/media/robert.jpg": "/car-service/static/media/robert.cb26e6a360b2af9e14a4.jpg",
+    "static/media/roi.jpg": "/car-service/static/media/roi.dfbf52e5a037f8cbba81.jpg",
+    "static/media/ashley.jpg": "/car-service/static/media/ashley.212aac613417c61d44cc.jpg",
+    "static/media/rodney.jpg": "/car-service/static/media/rodney.b7632643b45621d15cbf.jpg",
+    "static/media/logo.jpg": "/car-service/static/media/logo.6b2482958114019edfab.jpg",
+    "static/media/location.jpg": "/car-service/static/media/location.055d0ec6a161f0c53879.jpg",
+    "static/media/pay.jpg": "/car-service/static/media/pay.f7e6fc1807bee14ba092.jpg",
+    "static/media/book2.jpg": "/car-service/static/media/book2.b6f71367cce11da78394.jpg",
+    "static/media/warranty.jfif": "/car-service/static/media/warranty.5a132a2c0da892b1565e.jfif",
+    "index.html": "/car-service/index.html",
+    "main.38550548.css.map": "/car-service/static/css/main.38550548.css.map",
+    "main.8ff833f8.js.map": "/car-service/static/js/main.8ff833f8.js.map",
+    "787.0ca4bb88.chunk.js.map": "/car-service/static/js/787.0ca4bb88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38550548.css",
+    "static/js/main.8ff833f8.js"
+  ]
+}
